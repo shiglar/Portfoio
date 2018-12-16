@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: white;
+    opacity: .6;
+}
+
+.nav-link:hover {
+    color: white;
+    opacity: 1;
+}
+
+.navbar.scrolled {
+    background: #003366;
+    transition: background .5s;
+}
+
+#welcome {
+    top: 0;
+    background: url(imgs/P1360299.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 35vh;
+    color: white;
+}
+
+#welcome img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#welcome p {
+    font-size: 1.2rem;
+}
+
+#welcome a {
+    color: white;
+    opacity: .5;
+}
+
+#welcome a:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+}
+
+#welcome-container {
+    width: 40%;
+    animation-name: intro;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#projects {
+    width: 100%;
+    padding-top: 55px;
+}
+
+#profiles {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 25px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#profile-link img {
+    width: 50px;
+    height: 50px;
+}
+
+#profile-link:hover img {
+    opacity: .5;
+}
+
+iframe {
+    height: 300px;
+    width: 100%;
+    border: 3px solid black;
+}
+
+
+
+@media (max-width: 800px) {
+    #welcome-container {
+        width: 90%;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+    }
+
+    #projects {
+        margin-top: -200px;
+        width: 100%;
+        padding-top: 220px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+}
