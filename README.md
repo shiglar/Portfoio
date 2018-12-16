@@ -1,2 +1,2 @@
-# Portfoio
+# Portfolio
 A portfolio website
