@@ -55,7 +55,7 @@ body {
 #welcome-container {
     width: 40%;
     animation-name: intro;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-timing-function: linear;
 }
 
