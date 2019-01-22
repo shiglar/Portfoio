@@ -36,24 +36,24 @@ function onFrame(event) {
 
 
 // FORM SUBMIT
-$('.button').on('click', function() {
-  $("#form").html("<div id='thanks'><h2>Thanks for the contact! I'll be in touch shortly.</h2></div>");
-  $('form :input').val('');
-});
+//$('.button').on('click', function() {
+  //$("#form").html("<div id='thanks'><h2>Thanks for the contact! I'll be in touch shortly.</h2></div>");
+  //$('form :input').val('');
+//});
 
 
 
 // NAVBAR COLLAPSE
-$('.navbar-nav>li>a').on('click', function() {
-  $('.navbar-collapse').collapse('hide');
-});
+//$('.navbar-nav>li>a').on('click', function() {
+  //$('.navbar-collapse').collapse('hide');
+//});
 
 
 
 // SCROLL EFFECT
-$(function() {
-  $(document).scroll(function() {
-    var $nav = $("#navbar");
-    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-  })
-})
+//$(function() {
+  //$(document).scroll(function() {
+    //var $nav = $("#navbar");
+    //$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  //})
+//})
