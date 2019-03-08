@@ -46,7 +46,6 @@ body, html {
 }
 
 #welcome {
-  top: 0;
   height: 100vh;
   min-height: 400px;
   padding-top: 30vh;
@@ -167,6 +166,10 @@ body, html {
   width: 100%;
   height: 100%;
   border-radius: 5px;
+}
+
+.codepen {
+  font-size: 30px;
 }
 
 .contactform {
