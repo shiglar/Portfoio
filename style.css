@@ -98,7 +98,7 @@ body, html {
   font-family: 'Ubuntu', sans-serif;
 }
 
-#profile {
+section#profiles div img {
   width: 90%;
 }
 
